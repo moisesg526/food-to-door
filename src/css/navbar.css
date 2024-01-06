@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+ul > li {
+  cursor: pointer;
+}
+
+
+ul > li:hover {
+    color: #4f64a7;
+}
