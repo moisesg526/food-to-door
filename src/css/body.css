@@ -1,0 +1,10 @@
+.body {
+    max-width: 80%;
+    min-height: 20em;
+    background-image: url(../images/fruits.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    margin: auto;
+}
+

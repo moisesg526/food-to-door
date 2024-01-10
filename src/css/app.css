@@ -1,7 +1,8 @@
 * {
   margin: 0;
-  background-color: #f2ede3;
-  padding: 0 1rem;
 }
+
 .app-components {
+  background-color: #f2ede3;
+  padding: 0 2rem 2rem;
 }
