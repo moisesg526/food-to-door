@@ -3,11 +3,17 @@ import "../css/body.css";
 function Body() {
   return (
     <div className="body">
-      <h1>Search. Click. Get it Delivered and Enjoy! </h1>
-      <p>
-        When you hungry but feeling lazy just search for your favorite
-        restaurants and get it delivered.
-      </p>
+      <div className="body-text">
+        <h1>
+          Search. Click. Get it <span className="purple">Delivered</span> and
+          Enjoy!
+        </h1>
+        <p>
+          Hungry and tired? Just search for your favorite restaurants or meals
+          and get it delivered!
+        </p>
+        <input type="text" />
+      </div>
     </div>
   );
 }

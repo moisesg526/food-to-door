@@ -1,10 +1,28 @@
 .body {
-    max-width: 80%;
-    min-height: 20em;
-    background-image: url(../images/fruits.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: left;
-    margin: auto;
+  width: 90%;
+  min-height: 20em;
+  background-image: url(../images/fruits.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
 }
 
+.body-text {
+  width: 50%;
+  padding: 2rem;
+}
+
+.body-text > p {
+  padding: 2rem 0;
+  width: 75%;
+  font-size: 1.2rem;
+}
+
+.purple {
+  color: #4f64a7;
+}
