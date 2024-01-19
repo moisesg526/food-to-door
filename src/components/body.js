@@ -1,3 +1,4 @@
+import Search from "./search";
 import "../css/body.css";
 
 function Body() {
@@ -12,7 +13,7 @@ function Body() {
           Hungry and tired? Just search for your favorite restaurants or meals
           and get it delivered!
         </p>
-        <input type="text" />
+        <Search />
       </div>
     </div>
   );
