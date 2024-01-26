@@ -1,19 +1,36 @@
 import "../css/search.css";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
+const url =
+  "https://api.spoonacular.com/food/restaurants/search?apiKey=ea4faf2967b34be5831926bc59db3207";
 
 function Search() {
-  const apiKey = "ea4faf2967b34be5831926bc59db3207";
-  const [data, setData] = useState(null);
+  const [restaurants, setRestaurants] = useState(0);
 
   useEffect(() => {
-    fetch(`https://api.spoonacular.com/food/restaurants/search?apiKey=${apiKey}`)
-    .then(res => res.json())
-    .then(json => setData(json))
-    .catch(error => console.log(error(error)));
+    const fetchData = async () => {
+      const res = await fetch(url);
+      res.json().then((json) => {
+        setRestaurants(json.name);
+      });
+    };
+    fetchData();
   }, []);
 
-  return <input className="search-bar" type="text" placeholder="Search" />;
+  return (
+    <div className="search">
+      <form>
+        <input
+          id="search-bar"
+          className="search-bar"
+          type="text"
+          placeholder="Search"
+        />
+        <button>Search</button>
+      </form>
+      <div className="data">Restaurants: {restaurants}</div>
+    </div>
+  );
 }
 
 export default Search;
