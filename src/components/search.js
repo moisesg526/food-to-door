@@ -24,7 +24,7 @@ function Search() {
           id="search-bar"
           className="search-bar"
           type="text"
-          placeholder="Search"
+          placeholder="Pizza, Burger..."
         />
         <button>Search</button>
       </form>
