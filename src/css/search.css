@@ -1,15 +1,31 @@
+form {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  border-radius: 10px;
+  color: #575756;
+  border: 1px solid;
+  padding: 6px;
+  font-size: 14px;
+  width: 30%;
+}
+
+input {
+  border: none;
+  flex-grow: 2;
+  background-color: transparent;
+}
+
 input:focus {
   outline: none;
 }
 
-.search-bar {
-  border-radius: 10px;
-  padding: 12px 24px;
-  width: 30%;
-  background-color: transparent;
-  transition: transform 250ms ease-in-out;
-  font-size: 14px;
-  color: #575756;
+.search-form > button {
+  border: none;
+  font-size: 1rem;
+  color: #4f64a7;
+  cursor: pointer;
 }
 
 .search-bar::placeholder {

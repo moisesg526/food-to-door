@@ -26,7 +26,7 @@ function Process() {
           />
           <h2>Our service is fast a reliable.</h2>
         </div>
-        <div className="img-bloc">
+        <div className="img-block">
           <img
             className="process-img"
             src={delivered}
