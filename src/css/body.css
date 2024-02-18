@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
+  box-shadow: 10px 10px 40px 5px #e0e0e0;
 }
 
 .body-text {

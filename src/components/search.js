@@ -1,21 +1,11 @@
 import "../css/search.css";
-// import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
-// const url =
-//   "https://api.spoonacular.com/food/restaurants/search?apiKey=ea4faf2967b34be5831926bc59db3207";
+let api = "https://www.themealdb.com/api/json/v1/1/search.php>s=";
 
 function Search() {
-  // const [restaurants, setRestaurants] = useState(0);
+const [recipe, setRecipe] = useState()
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const res = await fetch(url);
-  //     res.json().then((json) => {
-  //       setRestaurants(json.name);
-  //     });
-  //   };
-  //   fetchData();
-  // }, []);
 
   return (
     <div className="search">
