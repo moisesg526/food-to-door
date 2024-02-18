@@ -1,4 +1,4 @@
-form {
+.search-container {
   display: flex;
   flex-direction: row;
   background-color: transparent;
@@ -8,27 +8,31 @@ form {
   border: 1px solid;
   padding: 6px;
   font-size: 14px;
-  max-width: 30%;
+  max-width: 20rem;
+  min-width: 12rem;
+  position: relative;
 }
 
 input {
   border: none;
   flex-grow: 2;
   background-color: transparent;
+  width: 100%;
 }
 
 input:focus {
   outline: none;
 }
 
-.search-form > button {
+.search-container > button {
   border: none;
   font-size: 1rem;
   color: #4f64a7;
   cursor: pointer;
+  background-color: transparent;
 }
 
-.search-bar::placeholder {
+input::placeholder {
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
