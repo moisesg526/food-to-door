@@ -12,8 +12,8 @@ function Body() {
             Enjoy!
           </h1>
           <p>
-            Hungry and tired? Just search for your favorite restaurants or meals
-            and get it delivered!
+            Missing ingredient? Just search for your favorite meals
+            and get what you're missing delivered!
           </p>
           <Search />
         </div>

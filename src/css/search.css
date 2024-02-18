@@ -1,4 +1,4 @@
-.search-container {
+.search-bar {
   display: flex;
   flex-direction: row;
   background-color: transparent;
@@ -24,7 +24,7 @@ input:focus {
   outline: none;
 }
 
-.search-container > button {
+.search-bar > button {
   border: none;
   font-size: 1rem;
   color: #4f64a7;
@@ -45,4 +45,21 @@ input::placeholder {
   border-bottom: 1px solid #575756;
   border-radius: 0;
   background-position: 100% center;
+}
+
+.search-container {
+  display: grid;
+  place-items: center;
+}
+
+.meal-container {
+  display: grid;
+  place-items: center;
+}
+
+.meal-img {
+  max-width: 20rem;
+  min-width: 14rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 5px #e0e0e0;
 }

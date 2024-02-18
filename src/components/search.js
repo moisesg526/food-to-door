@@ -33,19 +33,19 @@ function Search() {
 
   return (
     <div>
-      <div className="search-container">
+      <div className="search-bar">
         <input type="text" value={searchTerm} onChange={handleInputChange} />
         <button onClick={handleSearch}>
           <i className="fa-solid fa-magnifying-glass magnifier"></i>
         </button>
       </div>
-      <div>
+      <div className="search-container">
         {loading ? (
           <p>Loading...</p>
         ) : meal ? (
-          <div>
+          <div className="meal-container">
             <h2>{meal.strMeal}</h2>
-            <img src={meal.strMealThumb} alt={meal.strMeal} />
+            <img className="meal-img" src={meal.strMealThumb} alt={meal.strMeal} />
             <h3>Ingredients:</h3>
             <ul>
               {Object.entries(meal)
