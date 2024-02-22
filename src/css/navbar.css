@@ -50,3 +50,12 @@ ul > li:hover {
   position: relative;
   top: 2px;
 }
+
+@media (max-width: 500px) {
+  li {
+    display: none;
+  }
+  ul > .remove  {
+    display: none;
+  }
+}

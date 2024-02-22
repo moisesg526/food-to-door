@@ -20,3 +20,15 @@
 .img-block {
   text-align: center;
 }
+
+
+@media(max-width: 500px) {
+  .process-pitch {
+    font-size: 1rem;
+    padding: 3rem 0;
+  }
+
+  .process-animation {
+    display: block;
+  }
+}

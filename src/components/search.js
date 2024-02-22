@@ -47,7 +47,7 @@ function Search() {
             <h2>{meal.strMeal}</h2>
             <img className="meal-img" src={meal.strMealThumb} alt={meal.strMeal} />
             <h3>Ingredients:</h3>
-            <ul>
+            <ul className="ingredient-list">
               {Object.entries(meal)
                 .filter(
                   ([key, value]) => key.startsWith("strIngredient") && value

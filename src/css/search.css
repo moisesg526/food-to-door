@@ -11,6 +11,8 @@
   max-width: 20rem;
   min-width: 12rem;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 input {
@@ -62,4 +64,17 @@ input::placeholder {
   min-width: 14rem;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 5px #e0e0e0;
+}
+
+.meal-container > h3 {
+  padding: 1.4rem 0;
+}
+
+.ingredient-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ingredient-list p {
+  flex-wrap: 1;
 }

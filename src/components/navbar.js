@@ -14,8 +14,8 @@ function Navbar() {
       </ul>
       <div className="right-nav">
         <ul>
-          <li>Search</li>
-          <li>Cart</li>
+          <li className="remove">Search</li>
+          <li className="remove">Cart</li>
           <li>
             <button className="login-btn">Log In</button>
           </li>
