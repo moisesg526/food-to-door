@@ -32,3 +32,13 @@
     display: block;
   }
 }
+
+@media(500px < width <= 1000px) {
+  .process-pitch {
+    font-size: 1.2rem;
+  }
+
+  .process-animation {
+    display: block;
+  }
+}
